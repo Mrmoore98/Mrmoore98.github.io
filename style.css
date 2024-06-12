@@ -1,0 +1,60 @@
+/* styles.css */
+
+/* Design Credits: Jon Barron and Abhishek Kar and Saurabh Gupta*/
+a {
+    color: #1772d0;
+    text-decoration: none;
+}
+
+a:focus, a:hover {
+    color: #f09228;
+    text-decoration: none;
+}
+
+body, td, th {
+    font-family: 'Titillium Web', Verdana, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+h2 {
+    font-family: 'Titillium Web', Verdana, Helvetica, sans-serif;
+    font-size: 19px;
+    font-weight: bold;
+}
+
+strong {
+    font-family: 'Lato', Verdana, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.mapbody {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.circle {
+    width: 240px;
+    height: 240px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.circle > img {
+    width: 100%;
+    height: 100%;
+}
+
+.map-container {
+    width: 10%;
+    height: 7%;
+}
+
+table {
+    width: 950px;
+    margin: 0 auto;
+    border-spacing: 0;
+    padding: 20px;
+}
